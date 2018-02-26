@@ -41,8 +41,7 @@ class App extends Component {
 
   onButtonSubmit = () => {
     console.log('click')
-    app.models.predict(apiKey,
-      "https://samples.clarifai.com/face-det.jpg")
+    app.models.predict("https://samples.clarifai.com/face-det.jpg")
       .then(
       function(response) {
         console.log(response);
