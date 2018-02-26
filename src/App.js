@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navigation from './Components/Navigation/navigation';
 import Logo from './Components/Logo/logo';
-import Logo from './Components/Imagelinkform/imagelinkform';
+import ImageLinkForm from './Components/Imagelinkform/imagelinkform';
 import './App.css';
 
 class App extends Component {
