@@ -14,7 +14,7 @@ const particlesOptions = {
         enable: true,
         value_area: 800
       }
-    }
+    },
     move: {
       enable: true,
       speed:6
