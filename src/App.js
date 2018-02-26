@@ -77,6 +77,7 @@ class App extends Component {
           <Particles className='particles'
             params={particlesOptions}
           />
+          <Signin />
           <Navigation />
           <Logo />
           <Rank />
