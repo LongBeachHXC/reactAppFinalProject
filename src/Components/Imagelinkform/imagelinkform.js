@@ -1,5 +1,4 @@
 import React from 'react';
-import 'imagelinkform.css'
 
 const ImageLinkForm = () => {
     return (
