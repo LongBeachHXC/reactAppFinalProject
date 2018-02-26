@@ -5,20 +5,7 @@ import Logo from './Components/Logo/logo';
 import ImageLinkForm from './Components/Imagelinkform/imagelinkform';
 import Rank from './Components/Rank/rank';
 import './App.css';
-"move": {
-      "enable": true,
-      "speed": 6,
-      "direction": "none",
-      "random": false,
-      "straight": false,
-      "out_mode": "out",
-      "bounce": false,
-      "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
-      }
-    }
+
 const particlesOptions = {
   particles: {
     number: {
