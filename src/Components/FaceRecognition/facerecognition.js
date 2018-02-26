@@ -4,10 +4,12 @@ const FaceRecognition = ({ imageUrl }) => {
     return (
         <div className='center ma'>
         <div className='absolute mt2'>
-            <img ref='inputimage' alt='' src={imageUrl} width='500px' height='auto' />
+            <img alt='' src={imageUrl} width='500px' height='auto' />
         </div>
         </div>
     );
 }
+
+//ref='inputimage'
 
 export default FaceRecognition;
