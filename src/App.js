@@ -6,7 +6,7 @@ import ImageLinkForm from './Components/Imagelinkform/imagelinkform';
 import Rank from './Components/Rank/rank';
 import './App.css';
 
-const particlesOptioins = {
+const particlesOptions = {
   particles: {
     line_linked: {
       shadow: {
