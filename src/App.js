@@ -43,7 +43,7 @@ class App extends Component {
     const image = document.getElementById('inputimage');
     const width = Number(image.width);
     const height = Number(image.height);
-    console.log(image);
+    console.log(width,height);
   }
   onInputChange = (event) => {
     this.setState({input: event.target.value})
