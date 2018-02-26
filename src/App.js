@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 import Clarifai from 'clarifai';
 import Navigation from './Components/Navigation/navigation';
+import Signin from './Components/Signin/signin';
 import Logo from './Components/Logo/logo';
 import ImageLinkForm from './Components/Imagelinkform/imagelinkform';
 import Rank from './Components/Rank/rank';
