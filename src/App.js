@@ -62,6 +62,7 @@ class App extends Component {
 
   onInputChange = (event) => {
     this.setState({input: event.target.value})
+    console.log(event.target.value)
   }
 
   onButtonSubmit = () => {
@@ -69,7 +70,7 @@ class App extends Component {
     app.models
       .predict(
         Clarifai.FACE_DETECT_MODEL,
-        input)
+        this.state.input)
       .then(response => this.displayFaceBox(this.calculateFaceLocation(response)))
       .catch(err => console.log(err));
   }
