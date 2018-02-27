@@ -93,6 +93,7 @@ class App extends Component {
             params={particlesOptions}
           />
           <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
+          debugger
           { route === 'home'
             ? <div>
                 <Logo />
