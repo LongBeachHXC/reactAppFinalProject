@@ -78,7 +78,7 @@ class App extends Component {
     if (route === 'signout') {
       this.setState({isSignedIn: false})
     } else if (route ==='home') {
-      this.SetState({isSignedIn: true})
+      this.setState({isSignedIn: true})
     }
     this.setState({route: route})
     console.log(route)
@@ -93,7 +93,6 @@ class App extends Component {
             params={particlesOptions}
           />
           <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
-          debugger
           { route === 'home'
             ? <div>
                 <Logo />
