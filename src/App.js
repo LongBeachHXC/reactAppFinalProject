@@ -81,8 +81,8 @@ class App extends Component {
           <Navigation />
           {this.state.route === 'signin'
           ? <Signin />
-          : <Logo />
-          <div>
+          : <div>
+            <Logo />
             <Rank />
             <ImageLinkForm
               onInputChange={this.onInputChange}
