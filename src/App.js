@@ -82,7 +82,7 @@ class App extends Component {
     }
     this.setState({route: route})
     console.log(route)
-    console.log(isSignedIn);
+    console.log(this.state.isSignedIn);
   }
 
   render() {
