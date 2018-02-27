@@ -80,7 +80,9 @@ class App extends Component {
     } else if (route ==='home') {
       this.SetState({isSignedIn: true})
     }
-    this.setState({route: route});
+    this.setState({route: route})
+    console.log(route)
+    console.log(isSignedIn);
   }
 
   render() {
