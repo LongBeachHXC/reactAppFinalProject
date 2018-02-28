@@ -17,6 +17,14 @@ class Signin extends React.Component {
     }
 
     onSubmitSignIn = () => {
+        fetch('http://10.13.113.4:3001/signin', {
+            method: 'post',
+            header: {'Content-Type': 'application/json'},
+            body: JSON.stringify({
+                email: this.state.signInEmail,
+                password: this.state.signInPassword
+            })
+        })
         console.log(this.state);
         this.props.onRouteChange('home');
     }
