@@ -133,7 +133,7 @@ class App extends Component {
               </div>
             : (
               route === 'signin'
-                ? <Signin onRouteChange={this.onRouteChange}/>
+                ? <Signin loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
                 : <Register loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
               )
           }
