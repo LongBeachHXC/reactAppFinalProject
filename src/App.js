@@ -98,8 +98,7 @@ class App extends Component {
                 id: this.state.signInEmail,
               })
             })
-          }
-        }
+      }
         this.displayFaceBox(this.calculateFaceLocation(response))
       })
       .catch(err => console.log(err));
