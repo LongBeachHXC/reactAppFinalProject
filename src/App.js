@@ -56,13 +56,11 @@ class App extends Component {
   }
 
   displayFaceBox = (box) => {
-    console.log(box)
     this.setState({ box: box })
   }
 
   onInputChange = (event) => {
     this.setState({input: event.target.value})
-    console.log(event.target.value)
   }
 
   onButtonSubmit = () => {
