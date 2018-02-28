@@ -56,11 +56,13 @@ class App extends Component {
   }
 
   displayFaceBox = (box) => {
+    console.log(box)
     this.setState({ box: box })
   }
 
   onInputChange = (event) => {
     this.setState({input: event.target.value})
+    console.log(event.target.value)
   }
 
   onButtonSubmit = () => {
@@ -80,8 +82,6 @@ class App extends Component {
       this.setState({isSignedIn: true})
     }
     this.setState({route: route})
-    console.log(route)
-    console.log(this.state.isSignedIn);
   }
 
   render() {
