@@ -79,10 +79,12 @@ class App extends Component {
 
   onInputChange = (event) => {
     this.setState({input: event.target.value})
+    console.log(event.target.value);
   }
 
   onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input});
+    console.log(this.state.input);
     app.models
       .predict(
         Clarifai.FACE_DETECT_MODEL,
