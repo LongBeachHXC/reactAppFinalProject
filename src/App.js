@@ -30,19 +30,17 @@ const particlesOptions = {
   }
 }
 const initialState = {
-  {
-    input:'',
-    imageUrl:'',
-    box:{},
-    route: 'signin',
-    isSignedIn: false,
-    user: {
-      id: '',
-      name: '',
-      email: '',
-      entries: 0,
-      joined: new Date()
-    }
+  input:'',
+  imageUrl:'',
+  box:{},
+  route: 'signin',
+  isSignedIn: false,
+  user: {
+    id: '',
+    name: '',
+    email: '',
+    entries: 0,
+    joined: new Date()
   }
 }
 class App extends Component {
